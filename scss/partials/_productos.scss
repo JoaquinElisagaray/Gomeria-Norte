@@ -1,0 +1,72 @@
+
+.imgFate,
+.imgPirelli,
+.imgGood,
+.imgPace {
+  width: 150px;
+  
+}
+
+.imgMichelin,
+.imgConti {
+  width: 180px;
+}
+.accordion-body {
+  display: flex;
+  flex-direction: row;
+  background-color: #ebebeb; 
+}
+
+
+
+
+.card-productos {
+  text-align: center;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 2px solid white;
+  border-bottom-right-radius: 2px solid white;
+  margin-left: 15px;  
+  box-shadow: 10px 10px 40px -14px #000;
+  .card-text{
+    font-weight: bold;
+  }
+  
+  
+  span{
+    color: rgb(0, 255, 0);
+   
+  }
+  img{
+    border-bottom: 1px solid #d3d3d3 ;
+  }
+}
+
+.pace{
+ 
+  img{
+    padding-top: 10px;
+  }
+}
+
+
+.prodtit {
+  margin: 40px;
+  background-color: $amarillo;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 1000px) {
+  .contenedor .accordion-body {
+    display: block;
+    
+  }
+  .contenedor .card-productos{
+    margin: 15px;
+  }
+  .contenedor .card img {
+    width: 100%;
+    margin: auto;
+  }
+}

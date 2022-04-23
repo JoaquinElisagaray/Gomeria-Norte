@@ -1,0 +1,49 @@
+.servtit {
+  margin: 40px;
+  background-color: $amarillo;
+  border-radius: 5px;
+  border: 3px solid black;
+  
+  
+}
+
+
+.card-serv {
+  text-align: center;
+  background-color: black;
+  text-align: justify;
+  color: white;   
+  &:hover {
+    transform: scale(1.02);
+    
+    transition: 0.6s ease;
+    
+  }
+  p{
+    font-size: 16px
+  };
+  h4{
+      border-bottom: 2px solid $amarillo;
+      text-align: center;
+      
+    }
+  
+  }
+ 
+@media screen and (max-width:300px){
+  .servtit{
+    width: auto;
+    h2{
+      font-size: 2em;
+    }
+  }
+}
+
+@media screen and (max-width:700px){
+  .card-serv{
+    &:hover{
+      
+      transform: none;
+    }
+  }
+}

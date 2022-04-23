@@ -1,0 +1,22 @@
+#navbarNav {
+    a{
+        color: $amarillo;
+        margin: 20px;
+        font-weight: bold;
+        &:hover{
+            color: white;
+            text-decoration: underline;
+            transition: 0.5s;            
+        }
+    }
+}
+
+.navbar {
+    background-color: black;
+    .boton-nav{
+        background-color: $amarillo;
+        
+    }
+    
+}
+

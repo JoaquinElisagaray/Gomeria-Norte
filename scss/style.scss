@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './partials/variables';
+@import './partials/nav';
+@import './partials/index';
+@import './partials/footer';
+@import './partials/contacto';
+@import './partials/productos';
+@import './partials/servicios';
+@import './partials/404';
+
+.bg-black{
+    background-color: black;
+}
